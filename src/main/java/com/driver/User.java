@@ -13,6 +13,10 @@ public class User {
 //        isInGrp = inGrp;
 //    }
 
+
+    public User() {
+    }
+
     public User(String name, String mobile) {
         this.name = name;
         this.mobile = mobile;

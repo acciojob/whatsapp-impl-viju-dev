@@ -5,6 +5,10 @@ public class Group {
     private int numberOfParticipants;
 //    private String admin;
 
+
+    public Group() {
+    }
+
     public Group(String name, int numberOfParticipants) {
         this.name = name;
         this.numberOfParticipants = numberOfParticipants;
