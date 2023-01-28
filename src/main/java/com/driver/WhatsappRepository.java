@@ -80,7 +80,7 @@ public class WhatsappRepository {
         // The 'i^th' created message has message id 'i'.
         // Return the message id.
         messageId++; //incremented first to avoid fluctuation of returid and main id
-        Message message = new Message(messageId,content,new Date());
+        Message message = new Message(messageId,content);
         return messageId;
     }
 
