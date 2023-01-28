@@ -62,7 +62,7 @@ public class WhatsappRepository {
 
          } else if (users.size() > 2) {
              customGroupCount++; // incremented first as 1
-             group = new Group("Group"+customGroupCount+"",users.size());
+             group = new Group("Group "+customGroupCount+"",users.size());
             // group.setAdmin(users.get(0).getName()); // not admin one
 
          }
