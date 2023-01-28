@@ -116,6 +116,7 @@ public class WhatsappRepository {
             messageList = new ArrayList<>();
         }
         messageList.add(message);
+        groupMessageMap.put(group,messageList);
         senderMap.put(message,sender);
         return messageList.size();
     }
